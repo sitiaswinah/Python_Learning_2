@@ -35,11 +35,11 @@ The index is a range where the start point is inclusive in the range and the sto
 - The implicit index is the default index (built into Python)
 - Explicit index, we can define the index (defined index)
 2. data selection
-walaupun kita sudah membuat indeks eksplisit, kita masih bisa memanggil indeks implisit nya
+Even though we have created an explicit index, we can still call the implicit index
 when the implicit index and the explicit index are the same, when we call the data, it will only rely on the explicit index
 3. data slicing
-mengekstrak bagian data dan mengembalikannya sebagai data baru, tanpa mengubahnya
-tapi bila kita slicing indeks implisit nya, maka hanya akan muncul titik start nya. karena indeks implisit berupa range
+extracts a piece of data and returns it as new data, without changing it
+but if we slice the implicit index, only the starting point will appear. because the implicit index is a range
 
 **Loc dan Iloc**
 Loc and iloc are two functions in Pandas that are used to slice data sets in Pandas DataFrame
@@ -47,7 +47,8 @@ Loc and iloc are two functions in Pandas that are used to slice data sets in Pan
 **Fungsi .loc** usually used for label indexing and can access multiple columns
 Loc is short for 'location'. As the name suggests, it is used to select data at certain locations only
 
-**Fungsi  .iloc** digunakan untuk pengindeksan bilangan bulat.
+**Fungsi  .iloc** used for integer indexing.
+
 loc is short for 'index location'. Just like loc, it is used to select data at certain locations only. The only difference is, if loc selects data from one row to another and from one column to another column, then iloc selects data from one row to one row before another row and between one column and one column before another column. The concept is exactly like the index in an array.
 Note: the iloc concept does not recognize column names. Column names will be replaced with column indexes starting from zero onwards.
 
@@ -70,11 +71,11 @@ To create a DataFrame from a CSV (Comma-Separated Values) file, you can use the 
 The Python Random module generates random numbers in Python. It is a pseudo-random number meaning it is not truly random. This module can be used to perform random actions such as generating random numbers, printing random values ​​for lists or strings, etc. This is a built-in function in Python
 
 # Datetime
-Modul datetime menyediakan kelas untuk memanipulasi tanggal dan waktu.
-Meskipun aritmatika tanggal dan waktu didukung, fokus penerapannya adalah pada ekstraksi atribut yang efisien untuk pemformatan dan manipulasi keluaran.
+The datetime module provides classes for manipulating dates and times.
+Although date and time arithmetic are supported, the focus of the implementation is on efficient attribute extraction for output formatting and manipulation.
 
 # txt file - open, read, close
-Memasukan file berupa .txt ke jupiter NoteBook
+Enter the file in the form of .txt into Jupiter NoteBook
 
 
 

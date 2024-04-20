@@ -27,7 +27,7 @@ To modify a list within a function in Python, you can pass the list as an argume
 **NumPy** → NumPy is a library for processing and manipulating data in array form. From a variety of integrated mathematical functions to the ease of creating and manipulating arrays, NumPy ensures we can focus on extracting information rather than being bogged down by technical limitations.
 
 # Pandas has two objectives, namely Series and Data Frame
-# Object Series
+# 1. Object Series
 Object Series has one data dimension. It doesn't have a column name because it only has one column and it has an index
 
 1. Displays index
@@ -41,7 +41,7 @@ when the implicit index and the explicit index are the same, when we call the da
 mengekstrak bagian data dan mengembalikannya sebagai data baru, tanpa mengubahnya
 tapi bila kita slicing indeks implisit nya, maka hanya akan muncul titik start nya. karena indeks implisit berupa range
 
-# Loc dan Iloc
+**Loc dan Iloc**
 Loc and iloc are two functions in Pandas that are used to slice data sets in Pandas DataFrame
 
 **Fungsi .loc** usually used for label indexing and can access multiple columns
@@ -51,7 +51,7 @@ Loc is short for 'location'. As the name suggests, it is used to select data at 
 loc is short for 'index location'. Just like loc, it is used to select data at certain locations only. The only difference is, if loc selects data from one row to another and from one column to another column, then iloc selects data from one row to one row before another row and between one column and one column before another column. The concept is exactly like the index in an array.
 Note: the iloc concept does not recognize column names. Column names will be replaced with column indexes starting from zero onwards.
 
-# Data Frame
+# 2. Data Frame
 A data frame is a data structure constructed with rows and columns, similar to a database or Excel spreadsheet.
 
 DataFrame Structure
